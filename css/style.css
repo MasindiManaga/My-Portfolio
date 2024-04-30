@@ -1,0 +1,184 @@
+:root{
+    --primary-color: #FCF4D9;
+    --secondary-color: #fff;
+    --tertiary-color: #F6E4AD;
+    --fourth-color: #7A8489;
+    --first-font-family:"Poppins", sans-serif;
+    --second-font-family: "Playfair", sans-serif;
+}
+
+.logo{
+    max-height: 40px;
+}
+
+body{
+    background-color: var(--secondary-color);
+    margin: 0;
+}
+
+.container{
+    background-color: var(--primary-color);
+    max-width: 100%;
+    text-align: center;
+}
+
+.btn-dark,
+.btn-branding{
+    background-color:var(--tertiary-color) !important;
+    border-color: var(--tertiary-color);
+    color: var(--primary-color);
+    padding: 15px 30px;
+
+}
+
+.btn {
+    cursor: pointer;
+    transition: all 200ms ease-in-out;
+    border-color: var(--tertiary-color);
+    background-color: var(--tertiary-color);
+    color:var(--primary-color) ;
+    margin-top: 44px;
+}
+
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+    border: ;
+}
+
+.greeting{
+font-family: var(--first-font-family);
+font-weight: 700;
+font-size: 36px;
+line-height: 30px;
+}
+
+.name{
+    font-family: var(--second-font-family);
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 144px;
+
+}
+
+.description{
+    font-family: var(--second-font-family);
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.title1,
+.title-2
+{
+    font-family: var(--second-font-family);
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+    margin-top: 40px;
+}
+
+.paragraph-1, 
+.paragraph-2
+{
+    font-family: var(--first-font-family);
+    font-size: 16px;
+    font-weight: 400;
+line-height: 30px;
+color: var(--fourth-color) ;
+}
+
+.text-center{
+    font-family: var(--first-font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center !important;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contact-box{
+    background-color: var(--primary-color);
+
+}
+
+.work-inquiry{
+    font-family: var(--second-font-family);
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+}
+
+.text-muted{
+    font-family: var(--first-font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.fab{
+    font-weight: 400;
+    font-family: ;
+    line-height: 1;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+}
+
+.about,
+.work{
+    background-color: var(--primary-color);
+}
+
+.introduction{
+font-family: var(--second-font-family);
+font-weight: 700;
+font-size: 64px;
+line-height: 80px;
+margin-top: 40px;
+}
+
+.summary{
+    font-family: var(--first-font-family);
+    font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+}
+
+.mb-5{
+    font-family: var(--first-font-family);
+    font-weight: 400;
+font-size: 14px;
+line-height: 30px;
+}
+
+.footer{
+    background-color: var(--tertiary-color);
+}
+
+.heading{
+    text-align: center;
+    font-family: var(--second-font-family);
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 80px;
+}
+
+.writing,
+.weather-app{
+    font-family: var(--first-font-family);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.built, 
+.project{
+    font-family: var(--first-font-family);
+    font-size:14px;
+    font-weight: 400;
+    line-height: 30px;
+   
+}
